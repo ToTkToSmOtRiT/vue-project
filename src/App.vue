@@ -1,14 +1,18 @@
 <template>
   <div class="app">
-    
+    <Images></Images>
   </div>
 </template>
 
 <script>
+import Images from './components/ImageSection.vue'
+import Comms from './components/Comments.vue'
 
 export default {
   name: 'App',
   components: {
+    Images,
+    Comms,
   }
 }
 </script>
